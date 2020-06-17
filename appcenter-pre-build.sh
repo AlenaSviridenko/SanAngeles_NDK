@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-sdkmanager --install
-          "ndk;21.0.6113669"
+SDKMANAGER=$ANDROID_HOME/tools/bin/sdkmanager
+echo y | $SDKMANAGER "ndk;21.0.6113669"
